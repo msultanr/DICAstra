@@ -1,21 +1,22 @@
  .u-section-1 {
-  background-image: none;
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("images/company_image.jpeg");
+  background-position: 50% 50%;
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 593px;
+  min-height: 710px;
 }
 
 .u-section-1 .u-group-1 {
   width: 775px;
   height: auto;
   --radius: 15px;
-  min-height: 450px;
-  margin: 86px auto 57px;
+  min-height: 481px;
+  margin: 122px auto 60px;
 }
 
 .u-section-1 .u-container-layout-1 {
-  padding: 0 0 30px;
+  padding: 0;
 }
 
 .u-section-1 .u-text-1 {
@@ -58,24 +59,16 @@
 }
 
 @media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 926px;
+  }
+
   .u-section-1 .u-group-1 {
-    min-height: 461px;
-    margin-top: 83px;
-    margin-bottom: 49px;
     height: auto;
   }
 
   .u-section-1 .u-container-layout-1 {
     padding-top: 30px;
-  }
-
-  .u-section-1 .u-text-1 {
-    width: auto;
-    margin-top: 20px;
-  }
-
-  .u-section-1 .u-btn-1 {
-    margin-top: 43px;
   }
 }
 
@@ -83,22 +76,11 @@
   .u-section-1 .u-group-1 {
     width: 720px;
   }
-
-  .u-section-1 .u-btn-1 {
-    margin-top: 40px;
-  }
 }
 
 @media (max-width: 767px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 545px;
-  }
-
   .u-section-1 .u-group-1 {
-    min-height: 397px;
-    width: 495px;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    width: 540px;
   }
 
   .u-section-1 .u-container-layout-1 {
@@ -108,38 +90,27 @@
 
   .u-section-1 .u-text-1 {
     font-size: 1.875rem;
-    margin-top: 38px;
   }
 
   .u-section-1 .u-btn-1 {
     font-size: 0.875rem;
-    margin-top: 54px;
     padding: 13px 141px 15px;
   }
 
   .u-section-1 .u-btn-2 {
     font-size: 0.875rem;
-    margin-top: 25px;
     padding: 13px 164px 14px;
   }
 
   .u-section-1 .u-btn-3 {
     font-size: 0.875rem;
-    margin-top: 26px;
     padding: 14px 164px 14px 162px;
   }
 }
 
 @media (max-width: 575px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 482px;
-  }
-
   .u-section-1 .u-group-1 {
-    min-height: 363px;
-    margin-right: initial;
-    margin-left: initial;
-    width: auto;
+    width: 340px;
   }
 
   .u-section-1 .u-container-layout-1 {
@@ -151,7 +122,6 @@
   }
 
   .u-section-1 .u-btn-1 {
-    margin-top: 38px;
     padding: 10px 82px 11px 81px;
   }
 
@@ -160,7 +130,6 @@
   }
 
   .u-section-1 .u-btn-3 {
-    margin-top: 27px;
     padding: 10px 103px 11px;
   }
 }
